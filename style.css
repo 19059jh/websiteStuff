@@ -4,16 +4,6 @@ html {
 }
 
 
-
-#banner {
-  background-color: black;
-  color: white;
-  padding: 20px;
-  top: 0px;
-  left: 0px;
-}
-
-
 #text {
   background-color: black;
   padding: 50px;
@@ -21,6 +11,16 @@ html {
   color: white;
   position: relative;
   top: 125px;
+}
+
+/* Banner & Navigation */
+
+#banner {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  top: 0px;
+  left: 0px;
 }
 
 a {
