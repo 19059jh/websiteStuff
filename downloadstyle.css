@@ -18,7 +18,10 @@ html {
   color: black;
   position: relative;
   top: 60px;
+  left: 300px;
+  width: 200px;
   text-decoration: none;
+  text-align: center;
 }
 
 /* Banner & Navigation */
@@ -38,12 +41,12 @@ a {
 }
 
 ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: black;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
   top: 0;
 }
 
