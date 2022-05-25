@@ -1,0 +1,59 @@
+html {
+  background: url(backgroundD.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+
+#text {
+  background-color: black;
+  padding: 50px;
+  margin: 75px;
+  color: white;
+  position: relative;
+  top: 125px;
+}
+
+
+
+/* Banner & Navigation */
+
+#banner {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  top: 0px;
+  left: 0px;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: darkcyan;
+}
