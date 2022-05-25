@@ -13,7 +13,13 @@ html {
   top: 125px;
 }
 
-
+#download {
+  background-color: white;
+  color: black;
+  position: relative;
+  top: 60px;
+  text-decoration: none;
+}
 
 /* Banner & Navigation */
 
