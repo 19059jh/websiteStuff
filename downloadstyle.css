@@ -14,7 +14,7 @@ html {
 }
 
 #download {
-  background-color: white;
+  background-color: grey;
   color: black;
   position: relative;
   top: 60px;
@@ -22,6 +22,11 @@ html {
   width: 200px;
   text-decoration: none;
   text-align: center;
+  transition: 1s;
+}
+
+#download:hover {
+  background-color: white;
 }
 
 /* Banner & Navigation */
