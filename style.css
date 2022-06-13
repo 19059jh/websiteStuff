@@ -13,6 +13,14 @@ html {
   top: 125px;
 }
 
+img {
+  position: relative;
+  top: 150px;
+  left: 75px;
+  max-width: 66%;
+  max-height: 66%;
+}
+
 /* Banner & Navigation */
 
 #banner {
