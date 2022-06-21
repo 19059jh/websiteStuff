@@ -22,7 +22,6 @@ img {
 }
 
 /* Banner & Navigation */
-
 #banner {
   background-color: black;
   color: white;
@@ -30,27 +29,6 @@ img {
   padding: 20px;
   top: 0px;
   left: 0px;
-}
-
-a {
-  display: block;
-  padding: 8px;
-  background-color: black;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
-
-li {
-  display: inline;
-  float: left;
 }
 
 li a {
@@ -61,6 +39,31 @@ li a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+a {
+  display: block;
+  background-color: black;
+}
+
+.active {
+  display: block;
+  background-color: darkblue;
+}
+
 li a:hover {
   background-color: darkcyan;
 }
+
